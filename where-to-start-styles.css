@@ -3,7 +3,7 @@
   width: 1312px;
   height: 338px;
   left: 141px;
-  top: 1184px;
+  top: 1100px;
 }
 .where-to-start h1 {
   position: absolute;
@@ -78,27 +78,121 @@
 }
 
 .where-to-start > .videos > img {
-  position: absolute;
-  left: 87.51%;
-  right: 5.1%;
-  top: 70%;
+    position: absolute;
+    right: 10%;
+    top: 60%;
 }
 .programs img {
-  position: absolute;
-  left: 87.51%;
-  right: 5.1%;
-  top: 70%;
+    position: absolute;
+    right: 10%;
+    top: 60%;
 }
 
 .plans img {
-  position: absolute;
-  left: 87.51%;
-  right: 5.1%;
-  top: 70%;
+    position: absolute;
+    right: 10%;
+    top: 60%;
 }
 .access img {
   position: absolute;
-  left: 87.51%;
-  right: 5.1%;
-  top: 70%;
+  right: 10%;
+  top: 60%;
+}
+.videos h1 {
+    position: absolute;
+width: 180px;
+height: 24px;
+left: 40px;
+top: 53px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.5px;
+color: #FAFAF9;
+}
+.programs h1 {
+    position: absolute;
+width: 180px;
+height: 24px;
+left: 40px;
+top: 53px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.5px;
+color: #FAFAF9;
+}
+.programs p {
+    position: absolute;
+width: 192px;
+height: 49px;
+left: 40px;
+top: 90px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.3px;
+color: rgba(239, 237, 232, 0.65);
+}
+.plans h1 {
+    position: absolute;
+    width: 180px;
+    height: 24px;
+    left: 40px;
+    top: 53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FAFAF9;
+}
+.plans p {
+    position: absolute;
+    width: 192px;
+    height: 49px;
+    left: 40px;
+    top: 90px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: rgba(239, 237, 232, 0.65);
+}
+.access h1 {
+    position: absolute;
+    width: 210px;
+    height: 24px;
+    left: 40px;
+    top: 53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FAFAF9;
+}
+.access p {
+    position: absolute;
+    width: 192px;
+    height: 49px;
+    left: 40px;
+    top: 90px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: rgba(239, 237, 232, 0.65);
 }
