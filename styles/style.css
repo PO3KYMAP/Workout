@@ -313,3 +313,123 @@ color: #FAFAF9;
     text-decoration: none;
  }
  /* MEMBERSHIP */
+.membership {
+    width: 1200px;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.membership-container {
+    display: flex;
+    justify-content: center;
+}
+
+ .membership-title{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 50px;
+line-height: 70px;
+letter-spacing: 0.83px;
+color: #FAFAF9;
+ }
+ .membership-block1 {
+    background-color: #323443;
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-right: 50px ;
+    padding: 20px;
+ }
+
+ .membership-block-title {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+letter-spacing: 0.3px;
+color: #FAFAF9;
+ }
+
+ .membership-block-text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.5px;
+color: rgba(239, 237, 232, 0.65);
+margin-inline: 60px;
+
+ }
+
+ .membership-block2 {
+    background-color: #323443;
+    width:  600px;
+    height: 600px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+ }
+ .columns {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.5px;
+color: rgba(239, 237, 232, 0.65);
+margin-inline: 60px;
+ }
+
+ .membership-link {
+    margin-left: 80px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: start;
+ }
+
+ .membership-link a {
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 50px;
+ }
+ .membership-strilka {
+   margin-left: 10px;
+    margin-top: 15px;
+ }
+ .membership-btn {
+    background: #0070C9;
+    width: 150px;
+height: 30px;
+color: #FAFAF9;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 70px;
+    margin-top: 10px;
+ }
+
+ .end-btn {
+    width: 150px;
+    height: 38px;
+    background: #FAFAF9;
+    box-shadow: 0px 4px 9px rgba(255, 255, 255, 0.25);
+    margin-left: 85%;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #303030;
+ }
+ .end-btn-img {
+    width: 5px;
+    height: auto;
+ }
+ .end-btn:hover {
+    background-color: gold;
+ }
