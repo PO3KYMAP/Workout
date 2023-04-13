@@ -6,10 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="styles/navbar-styles.css" />
-  <link rel="stylesheet" href="styles/poster-styles.css" />
-  <link rel="stylesheet" href="styles/where-to-start-styles.css" />
-  <link rel="stylesheet" href="styles/adverts-styles.css">
+  <link rel="stylesheet" href="styles/style.css" />
+  <!-- <link rel="stylesheet" href="styles/adverts-styles.css"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet" />
@@ -18,101 +16,187 @@
 </head>
 
 <body>
-  <div class="navbar">
-    <p>Workout</p>
-    <div class="nav-list">
-      <a href="#">Workouts</a>
-      <a href="#">Programs</a>
-      <a href="#">Healthy Living</a>
-      <a href="#">Community</a>
-      <a href="#">About</a>
-      <a href="#">Store</a>
-    </div>
-  </div>
-
-  <div class="main">
-    <div class="poster">
-      <h1 class="letters">Workout With Me</h1>
-      <p class="motivation">
-        A huge selection of health and fitness content, healthy recipes and
-        transformation stories to help you get fit and stay fit!
-      </p>
-
-      <div class="distance">
-        <img src="static/121.png" alt="" width="20px" class="distance-img" />
-        <p class="distance-text">4,95</p>
-        <p class="distance-text2">km</p>
-      </div>
-
-      <img src="static/Images 2.png" class="muzhichok" />
-
-      <div class="videos">
-        <p class="videos-p1">500+</p>
-        <p class="videos-p2">Free Workout Videos</p>
-      </div>
-
-      <div class="tutorials">
-        <img class="tutorials-img" src="static/Снимок экрана 2023-04-11 215944.png" alt="" />
-        <p class="tutorials-p1">350+</p>
-        <p class="tutorials-p2">Video tutorial</p>
-      </div>
-
-      <a href="#"><button class="underposter-btn">Join Club Now!</button></a>
-      <div class="logos-of-companies">
-        <p>AS FEATURED IN</p>
-        <div class="logos">
-          <img src="static/Group_28.png" alt="" />
-          <img src="static/Group_29.png" alt="" />
-          <img src="static/ESPRIT.png" alt="" />
-          <img src="static/Group_27.png" alt="" />
-          <img src="static/Layer_1.png" alt="" />
-          <img src="static/layer1.png" alt="" />
+  <!-- HEADER -->
+  <header>
+    <div class="header-items">
+      <a href="index.html">
+        <p>Workout</p>
+      </a>
+      <!-- NAV -->
+      <div class="navbar">
+        <div class="nav-list">
+          <a href="#">Workouts</a>
+          <a href="#">Programs</a>
+          <a href="#">Healthy Living</a>
+          <a href="#">Community</a>
+          <a href="#">About</a>
+          <a href="#">Store</a>
         </div>
       </div>
     </div>
+  </header>
 
-    <div class="where-to-start">
-      <h1>Not sure where to start?</h1>
-      <p>
-        Programs offer day-to-day guidance on an interactive calendar to keep
-        you on track.
+  <!-- MAIN -->
+  <main class="container">
+    <section class="promo-logos">
+      <div class="promo-logos-div">
+        <h1 class="promo-title">
+          Workout <br />
+          with me
+        </h1>
+        <img src="img/man.png" alt="GEY" class="promo-img" />
+        <div>
+          <p class="promo-text">
+            A huge selection of health and fitness content, healthy recipes and <br>
+            transformation stories to help you get fit and stay fit!
+          </p>
+        </div>
+        <button class="promo-logos-btn"> Join Club Now! </button>
+      </div>
+
+
+      <div class="promo__block1">
+        <div class="promo__block1-img">
+          <img class="promo__block1-sub-img" src="./img/челавечок.png" alt="running">
+        </div>
+        <div>
+          <p class="promo_mini_block__text">4.95 <span class="promo-span">km</span></p>
+        </div>
+      </div>
+
+      <div class="promo__block2">
+        <div>
+          <img class="promo__block2-img" src="./img/trikutnikzkrujejkom.png" alt="uhh-artom">
+        </div>
+
+        <div>
+          <div class="promo__block2-text">
+            <p>350 +</p>
+          </div>
+          <div class="promo__block2-sub-text">
+            <p>Video tutorial</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="promo__block3">
+        <div>
+          <p class="promo_block3-text">500+ </p>
+          <span class="promo-span3">Free Workout Videos</span>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="promo-logos-container">
+      <div class="container1-promo-logos">
+        <h2 class="promo__logos__title">As featured in</h2>
+        <div class="promo__logos__items">
+          <img class="promo__logos__item" src="./icons/Group 28.png" alt="">
+          <img class="promo__logos__item" src="./icons/Group 29.png" alt="">
+          <img class="promo__logos__item" src="./icons/ESPRIT.png" alt="">
+          <img class="promo__logos__item" src="./icons/Group 27.png" alt="">
+          <img class="promo__logos__item" src="./icons/layer1.png" alt="">
+          <img class="promo__logos__item" src="./icons/Layer_1.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="workout">
+      <h2 class="workout-title">Not sure where to start</h2>
+      <p class="workout-title-text">Programs offer day-to-day guidance on an interactive calendar to keep you on track.
       </p>
-      <div class="videos">
-        <h1>Workout Videos</h1>
-        <img src="static/strilka.png" alt="">
+      <div class="workout-container">
+        <div class="workout-block">
+          <div class="workout-content">
+            <h3 class="workout-block-title">Workout Videos</h3>
+            <p class="workout-block-text">Access to hundreds of free, <br> full-length workout videos.</p>
+          </div>
+          <img src="img/strilka.png" alt="" class="block-img">
+        </div>
+        <div class="workout-block">
+          <div class="workout-content">
+            <h3 class="workout-block-title">Workout Programs</h3>
+            <p class="workout-block-text">Affordable and effective <br> workout programs.</p>
+          </div>
+          <img src="img/strilka.png" alt="" class="block-img">
+        </div>
+        <div class="workout-block">
+          <div class="workout-content">
+            <h3 class="workout-block-title">Meal Plans</h3>
+            <p class="workout-block-text">Plans built with registered <br> dietitians and nutritionists.</p>
+          </div>
+          <img src="img/strilka.png" alt="" class="block-img">
+        </div>
+        <div class="workout-block">
+          <div class="workout-content">
+            <h3 class="workout-block-title">WO Plus ALL ACCESS</h3>
+            <p class="workout-block-text">Add powerful features to <br> your membership. </p>
+          </div>
+          <div><img src="img/strilka.png" alt="" class="block-img"></div>
+        </div>
       </div>
-      <div class="programs">
-        <h1>Workout Programs</h1>
-        <p>Affordable and effective workout programs.</p>
-        <img src="static/strilka.png" alt="">
+    </section>
 
+    <section class="blog">
+      <div class="blog-container">
+        <div class="blog-text">
+          <h3 class="blog-title">
+            Work out at home for free.
+          </h3>
+          <p class="blog-paragraph">
+            We believe fitness should be accessible to everyone, everywhere,<br> regardless of income or access to a gym.
+            With hundreds of <br> professional workouts, healthy recipes and informative articles, as <br> well as one of the most
+            positive communities on the web, you’ll have <br> everything you need to reach your personal fitness goals – for
+            free!
+          </p>
+          <div class="blog-link">
+            <a href="#">See more</a>
+            <img src="img/strilka.png" alt="" class="blog-link-img">
+          </div>
+        </div>
+
+       <div>
+        <img src="img/block-2.png" alt="" class="blog-img">
+       </div>
       </div>
-      <div class="plans">
-        <h1>Meal Plans</h1>
-        <p>Plans built with registered dietitians and nutritionists.</p>
-        <img src="static/strilka.png" alt="">
 
+      <div class="blog-container">
+        <img src="img/block-1.png" alt="" class="blog-img">
+        <div class="blog-text">
+          <h3 class="blog-title">
+            Get more with low-cost training programs and advanced features.
+          </h3>
+          <p class="blog-paragraph">
+            We believe fitness should be accessible to everyone, everywhere,<br> regardless of income or access to a gym.
+            With hundreds of <br> professional workouts, healthy recipes and informative articles, as <br> well as one of the most
+            positive communities on the web, you’ll have <br> everything you need to reach your personal fitness goals – for
+            free!
+          </p>
+          <div class="blog-link">
+            <a href="#">See more</a>
+            <img src="img/strilka.png" alt="" class="blog-link-img">
+          </div>
+        </div>
+       <div>
+       </div>
       </div>
-      <div class="access">
-        <h1>WO Plus ALL ACCESS</h1>
-        <p>Add powerful features to your membership.</p>
-        <img src="static/strilka.png" alt="">
+    </section>
 
+
+    <section class="membership">
+      <div class="membership-container">
+        <div class="membership-block">
+
+        </div>
+        <div class="membership-block">
+          
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="adverts">
-        <h1 class="work-from-home"> Work out at home for free.</h1>
-        <p class="underh1-text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
-          With hundreds of professional workouts, healthy recipes and informative articles, as well as one of the most
-          positive communities on the web, you’ll have everything you need to reach your personal fitness goals – for
-          free!</p>
-          <a href="" class="link-1">
-            <p>See More</p>
-          </a>
-          <img src="static/strilka.png" alt="">
-    </div>
-  </div>
+  </main>
 </body>
 
 </html>
