@@ -1,0 +1,880 @@
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .promo-title {
+        font-size: 142px;
+    }
+
+    .promo-img {
+        width: 300px;
+    }
+
+    .promo__block1 {
+        left: 1000px;
+        top: 1px;
+        width: 150px;
+        height: 90px;
+    }
+
+    .promo_mini_block__text {
+        font-size: 36px;
+    }
+
+    .promo-span {
+        font-size: 16px;
+    }
+
+    .promo__block2 {
+        left: 700px;
+        width: 150px;
+        height: 90px;
+    }
+
+    .promo__block2-text {
+        font-size: 22px;
+        right: 35px;
+    }
+
+    .promo__block2-sub-text {
+        top: 45px;
+        left: 55px;
+        font-size: 12px;
+    }
+
+    .promo__block2-img {
+        width: 30px;
+        height: auto;
+        top: 28px;
+        left: 20px;
+    }
+
+    .promo__block3 {
+        left: 900px;
+        width: 150px;
+        height: 90px;
+        top: 600px;
+    }
+
+    .promo-span3 {
+        font-size: 12px;
+    }
+
+    .membership-block {
+        width: 550px;
+        height: 550px;
+    }
+
+    .blog-img1,
+    .blog-img2 {
+        width: 500px;
+        height: auto;
+    }
+
+    .blog-title {
+
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        letter-spacing: 0.3px;
+        color: #FAFAF9;
+    }
+
+    .membership-block {
+        width: 500px;
+        height: 550px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .promo-title {
+        font-size: 102px;
+        padding-left: 14%;
+    }
+
+    .promo-img {
+        width: 200px;
+        left: 60%;
+    }
+
+    .promo-text {
+        padding-left: 14%;
+    }
+
+    .promo__block1 {
+        left: 730px;
+    }
+
+    .promo__block2 {
+        top: 380px;
+        left: 500px;
+    }
+
+    .promo__block3 {
+        left: 730px;
+        top: 430px;
+    }
+
+    .promo-logos-btn {
+        margin-left: 14%;
+        width: 150px;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .promo__logos__items {
+        padding-left: 0px;
+    }
+
+    .promo__logos__title {
+        padding-bottom: 30px;
+        padding-left: 0px;
+        color: rgba(239, 237, 232, 0.65);
+    }
+
+    .workout-block {
+        width: 300px;
+        height: 130px;
+    }
+
+    .workout-block-text {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    .workout-block-title {
+        padding-left: 20px;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .blog-paragraph {
+        font-size: 12px;
+    }
+
+    .blog-title {
+        font-size: 22px;
+    }
+
+    .blog-img1 {
+        width: 370px;
+    }
+
+    .blog-img2 {
+        width: 330px;
+        height: 330px;
+    }
+
+    .membership-title {
+        font-size: 36px;
+    }
+
+    .membership-block {
+        width: 350px;
+        height: 530px;
+    }
+
+    .membership-block-title {
+        font-size: 30px;
+    }
+
+    .membership-block-text {
+        font-size: 14px;
+    }
+
+    .columns {
+        font-size: 14px;
+        margin-inline: 20px;
+    }
+
+    .end-btn {
+        margin-left: 41.5%;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .promo-title {
+        font-size: 82px;
+        padding-left: 14%;
+    }
+
+    .promo-img {
+        width: 150px;
+        left: 60%;
+    }
+
+    .promo-text {
+        padding-left: 14%;
+        font-size: 12px;
+    }
+
+    .promo__block1 {
+        left: 120px;
+        top: 400px;
+    }
+
+    .promo__block2 {
+        top: 400px;
+        left: 300px;
+    }
+
+    .promo__block3 {
+        left: 480px;
+        top: 400px;
+    }
+
+    .promo-logos-btn {
+        margin-left: 14%;
+        width: 150px;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .promo__logos__items {
+        padding-left: 0px;
+    }
+
+    .promo__logos__item {
+        padding-inline: 10px;
+    }
+
+    .promo__logos__title {
+        padding-bottom: 30px;
+        padding-right: 10px;
+        color: rgba(239, 237, 232, 0.65);
+        font-size: 16px;
+    }
+
+    .container1-promo-logos {
+        text-align: start;
+            margin-left: 80px;
+            width: 80%;
+    }
+
+    .workout-title {
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+
+    .workout-title-text {
+        font-size: 14px;
+        padding-left: 50px;
+    }
+
+    .workout-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .workout-block {
+        margin-top: 30px;
+        width: 230px;
+        height: 170px;
+        border-radius: 10px;
+    }
+
+    .workout-block-text {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    .workout-block-title {
+        padding-left: 20px;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .blog-paragraph {
+        font-size: 12px;
+        height: auto;
+        width: 350px;
+    }
+    .blog-link {
+       justify-content: center;
+    }
+
+    .blog-title {
+        font-size: 18px;
+    }
+
+    .blog-img1 {
+        width: 370px;
+    }
+
+    .blog-img2 {
+        width: 330px;
+    }
+
+    .membership-title {
+        font-size: 28px;
+    }
+
+    .membership-block {
+        width: 300px;
+        height: 550px;
+    }
+
+    .membership-block-title {
+        font-size: 20px;
+    }
+
+    .membership-block-text {
+        font-size: 14px;
+    }
+
+    .membership-container {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .columns {
+        font-size: 14px;
+        margin-inline: 20px;
+    }
+
+    .end-btn {
+        margin-left: 41.5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 568px;
+    }
+    .header-items a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding-left: 43%;
+        font-size: 26px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .header-items p {
+        text-align: center;
+    }
+
+    .promo-title {
+        font-size: 82px;
+        padding-left: 14%;
+    }
+
+    .promo-img {
+        width: 120px;
+        left: 78%;
+    }
+    .promo-logos-btn {
+        margin-left: 15%;
+        width: 120px;
+        height: 45px;
+        font-weight: 200;
+        font-size: 12px;
+    }
+    .promo-text {
+        padding-left: 15%;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0px;
+    }
+
+    .promo__block1 {
+        left: 80px;
+        top: 400px;
+        width: 120px;
+        height: 80px;
+    }
+    .promo__block1-img {
+        border-radius: 100px;
+        background-color: #EFA082;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 20px;
+        top: 16px;
+    }
+    
+    .promo__block1-sub-img {
+        position: absolute;
+        left: 2px;
+        top: 3px;
+    }
+    
+    .promo_mini_block__text {
+        font-size: 25px;
+        position: absolute;
+        left: 35px;
+        top: 10px;
+    }
+    
+    .promo-span {
+        font-size: 10px;
+        color: #e7c594;
+    }
+
+    .promo__block2 {
+        left: 250px;
+        top: 400px;
+        width: 120px;
+        height: 80px;
+    }
+    .promo__block2-img {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 20px;
+        top: 16px;
+    }
+    
+    .promo__block2-text {
+        font-size: 25px;
+        width: 80px;
+        position: absolute;
+        left: 50px;
+        bottom:10px;
+    }
+    
+    .promo__block2-sub-text {
+        color: #9b9b9b;
+        position: absolute;
+        top: 38px;
+        left: 24px;
+        width: 100px;
+        height: 20px;
+    }
+
+    .promo__block3 {
+        left: 420px;
+        top: 400px;
+        width: 120px;
+        height: 80px;
+    }
+    .promo_block3-text {
+        font-size: 25px;
+        position: absolute;
+        left: 20px;
+        bottom: 10px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
+    
+    .promo-span3 {
+        color: #9b9b9b;
+        position: absolute;
+        top: 50px;
+        left: 20px;
+    }
+
+    .promo__logos__items {
+        padding-left: 0px;
+        width: 0px;
+        height: auto;
+    }
+
+    .promo__logos__item {
+        width: 130px;
+        padding-inline: 5px;
+    }
+
+    .container1-promo-logos {
+        margin-left: 0px;
+    }
+
+    .promo__logos__title {
+        padding-bottom: 30px;
+        padding-right: 10px;
+        color: rgba(239, 237, 232, 0.65);
+        font-size: 16px;
+    }
+    .promo__logos__items {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .promo__logos__item {
+        width: 140px;
+        height: 50%;
+    }
+    .container1-promo-logos {
+        text-align: start;
+            margin-left: 30px;
+            width: 50%;
+            height: 60%;
+    }
+
+
+    .workout-title {
+        padding-top: 100px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        letter-spacing: 0.3px;
+        color: #FAFAF9;
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+
+    .workout-title-text {
+        font-size: 14px;
+        padding-left: 50px;
+    }
+
+    .workout-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .workout-block {
+        margin-top: 30px;
+        width: 230px;
+        height: 170px;
+        border-radius: 10px;
+    }
+
+    .workout-block-text {
+        font-size: 12px;
+        padding-left: 10px;
+
+    }
+
+    .workout-block-title {
+        padding-left: 20px;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .blog {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .blog-link a {
+        font-size: 12px;
+    }
+
+    .blog-img1 {
+        margin-top: 25px;
+        margin-left: 0px;
+        width: 320px;
+        height: auto;
+        margin-left: 100px;
+
+
+    }
+
+    .blog-img2 {
+        margin-right: 30px;
+        margin-top: 20px;
+        width: 320px;
+        height: auto;
+        order: 2;
+        margin-left: 100px;
+    }
+
+    .blog-title {
+        color: #FAFAF9;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .blog-paragraph {
+        text-align: center;
+        font-size: 10px;
+        color: rgba(239, 237, 232, 0.65);
+    }
+
+    .blog-text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    .end-btn {
+        margin-top: 90%;
+        margin-left: 37%;
+    }
+    .membership-title {
+        font-size: 28px;
+    }
+
+    .membership-block {
+        width: 200px;
+        height: 550px;
+    }
+
+    .membership-block-title {
+        font-size: 20px;
+    }
+
+    .membership-block-text {
+        font-size: 12px;
+    }
+    .columns {
+        font-size: 10px;
+        margin-inline: 0px;
+    }
+
+    .membership-container {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .membership-btn {
+        margin-left: 30px;
+    }
+    .membership-link {
+        font-size: 14px;
+        margin-left: 45px;
+    }
+    .membership-strilka {
+        width: 20px;
+    }
+
+
+}
+
+@media (max-width: 568px) {
+    .container {
+        max-width: 320px;
+    }
+    .header-items a {
+        padding-left: 40%;
+        font-size: 22px;
+    }
+    .promo-title {
+        font-size: 42px;
+        padding-left: 0%;
+    }
+
+    .promo-img {
+        width: 120px;
+        left: 78%;
+        padding-right: 10%;
+    }
+    .promo-logos-btn {
+        margin-left: 15%;
+        width: 90px;
+        height: 45px;
+        font-weight: 200;
+        font-size: 10px;
+        letter-spacing: 0px;
+        font-weight: 200;
+    }
+    .promo-text {
+        padding-left: 0%;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        padding-left: 0%;
+        width: 250px;
+    }
+
+    .promo__block1 {
+        height: 45px;
+        display: none;
+    }
+    .promo__block2 {
+        left: 180px;
+        top: 450px;
+        width: 120px;
+        height: 45px;
+        display: none;
+    }
+    .promo__block3 {
+        left: 420px;
+        top: 400px;
+        width: 120px;
+        height: 80px;
+        display: none;
+    }
+    .promo__logos__items {
+        padding-left: 0px;
+        width: 0px;
+        height: auto;
+    }
+
+    .promo__logos__item {
+        width: 130px;
+        padding-inline: 5px;
+    }
+
+    .container1-promo-logos {
+        margin-left: 0px;
+    }
+
+    .promo__logos__title {
+        padding-bottom: 30px;
+        padding-right: 10px;
+        color: rgba(239, 237, 232, 0.65);
+        font-size: 12px;
+        width: 200px;
+    }
+    .promo__logos__items {
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .promo__logos__item {
+        width: 45px;
+        height: 50%;
+    }
+    .container1-promo-logos {
+        text-align: center;
+            margin-left: 0px;
+            width: 25%;
+            height: 60%;
+    }
+    .workout-title {
+        padding-top: 100px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 50px;
+        letter-spacing: 0.3px;
+        color: #FAFAF9;
+        padding-top: 100px;
+        padding-left: 40px;
+    }
+
+    .workout-title-text {
+        font-size: 10px;
+        padding-left: 20px;
+    }
+
+    .workout-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .workout-block {
+        margin-top: 30px;
+        width: 230px;
+        height: 170px;
+        border-radius: 10px;
+    }
+
+    .workout-block-text {
+        font-size: 12px;
+        padding-left: 10px;
+
+    }
+
+    .workout-block-title {
+        padding-left: 20px;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .blog {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .blog-link a {
+        font-size: 12px;
+    }
+
+    .blog-img1 {
+        margin-top: 25px;
+        margin-left: 0px;
+        width: 250px;
+        height: auto;
+        margin-left: 0px;
+
+
+    }
+
+    .blog-img2 {
+        margin-right: 30px;
+        margin-top: 20px;
+        width: 250px;
+        height: auto;
+        order: 2;
+        margin-left: 0px;
+    }
+
+    .blog-title {
+        color: #FAFAF9;
+        font-size: 18px;
+        width: 320px;
+        text-align: center;
+    }
+
+    .blog-paragraph {
+        text-align: center;
+        font-size: 10px;
+        color: rgba(239, 237, 232, 0.65);
+    }
+
+    .blog-text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center;
+    }
+    .membership-title {
+        font-size: 20px;
+    }
+
+    .membership-block {
+        width: 320px;
+        height: 500px;
+    }
+
+    .membership-block-title {
+        font-size: 20px;
+    }
+
+    .membership-block-text {
+        font-size: 12px;
+    }
+    .columns {
+        font-size: 10px;
+        margin-inline: 0px;
+    }
+
+    .membership-container {
+        display: block;
+    }
+    .membership-btn {
+        margin-left: 30px;
+    }
+    .membership-link {
+        font-size: 14px;
+        margin-left: 45px;
+    }
+    .membership-strilka {
+        width: 20px;
+    }
+    .end-btn {
+        margin-top: 10%;
+        margin-left: 37%;
+    }
+
+
+}
