@@ -657,9 +657,16 @@
     .container {
         max-width: 320px;
     }
+    .header-items {
+       width: 320px;
+    }
     .header-items a {
-        padding-left: 40%;
+        padding-left: 60%;
         font-size: 22px;
+    }
+    .promo-logos {
+        position: relative;
+        margin-bottom: 300px;
     }
     .promo-title {
         font-size: 42px;
@@ -668,8 +675,8 @@
 
     .promo-img {
         width: 120px;
-        left: 78%;
-        padding-right: 10%;
+        left: 20%;
+        top: 300px;
     }
     .promo-logos-btn {
         margin-left: 15%;
@@ -753,7 +760,7 @@
         line-height: 50px;
         letter-spacing: 0.3px;
         color: #FAFAF9;
-        padding-top: 100px;
+        padding-top: 20px;
         padding-left: 40px;
     }
 
@@ -842,8 +849,9 @@
     }
 
     .membership-block {
-        width: 320px;
+        width: 310px;
         height: 500px;
+        padding: 5px;
     }
 
     .membership-block-title {
